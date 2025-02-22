@@ -1,0 +1,34 @@
+@font-face {
+    font-family:pp;
+    src: url('/PPWoodland-ttf.ttf');
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #000000;
+    color: white;
+    font-family: pp;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#bg{
+    align-content: center;
+    height: 100%;
+    width: 55%;
+    margin: auto;
+    background-image: url('/Moon.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+h1{
+    user-select: none;
+    background: transparent;
+    mix-blend-mode: difference;
+    font-size: 15vw;
+    font-weight: 6 00;
+    margin-left: -15%;
+    color: rgb(255, 200, 127);
+}
