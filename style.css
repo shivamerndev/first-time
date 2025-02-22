@@ -1,6 +1,6 @@
 @font-face {
     font-family:pp;
-    src: url('/PPWoodland-ttf.ttf');
+    src: url('/PPWoodland-woff.woff');
 }
 *{
     margin: 0;
@@ -19,7 +19,7 @@ html,body{
     height: 100%;
     width: 55%;
     margin: auto;
-    background-image: url('/Moon.jpg');
+    background-image: url('/Moon.webp');
     background-size: contain;
     background-repeat: no-repeat;
 }
